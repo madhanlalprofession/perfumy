@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+nav{
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+h1,ul,li{
+  display: inline-block;
+}
+ul{
+  margin-left: 60%;
+  color: gray;
+}
+li:hover{
+  color: white;
+  cursor: pointer;
+}
+input{
+  width: 60%;
+  padding: 10px;
+}
+.search{
+  text-align: center;
+  padding: 40px;
+}
+.box1{
+  border-width:2px ;
+  border-style: solid;
+  border-color: black;
+  width: 220px;
+  margin: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+.box1:hover{
+  background-color: black;
+  color: white;
+}
+.box2:hover{
+  background-color: black;
+  color: white;
+}
+.box3:hover{
+  background-color: black;
+  color: white;
+}
+.box2{
+  border-width:2px ;
+  border-style: solid;
+  border-color: black;
+  width: 220px;
+  margin: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+.box3{
+  border-width:2px ;
+  border-style: solid;
+  border-color: black;
+  width: 220px;
+  margin: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+.product{
+  text-align: center;
+}
+.about{
+  text-align: center;
+}
+.contact{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: small;
+  padding-bottom: 10px;
+}
